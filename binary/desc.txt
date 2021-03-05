@@ -1,0 +1,24 @@
+1.Total 2 classes - Normal,covid-19
+
+Pre-processing:
+1.Applied Data Augmentation only to training data(horizontal flip)
+
+Training Data:
+1.Normal images=1392
+2.covid-19 images=570
+Total training data images=1962
+Size of each image=(224,224,3)
+
+Test Data:
+1.Normal images=234
+2.covid-19 images=20
+
+Networks Used:
+1.VGG16
+2.ResNet50
+
+Accuracy:
+1.With VGG16, validation accuracy: 98%
+2.With ResNet50, validation accuracy:92%
+
+
